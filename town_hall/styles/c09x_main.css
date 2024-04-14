@@ -93,6 +93,7 @@ section {
     flex-basis: 70%;
     order: 2;
 	padding: 0 2.5% 20px 2.5%;
+	}
 }
 section h1 {
 	font-size: 150%;
@@ -141,10 +142,15 @@ article img {
 }
 
 /* the styles for the aside */
-aside {
-    flex-basis: 30%;
-    order: 1;
+#left {
+	flex-basis: 30%;
+	order: 1;
 	padding: 0 0 20px 2.5%;
+}
+#right {
+	flex-basis: 30%;
+	order: 3;
+	padding: 0 2.5% 20px 2.5%;
 }
 aside h2 {
 	color: #800000;
